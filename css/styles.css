@@ -151,3 +151,30 @@ img {
   max-width: 700px;
 }
 /* MEDIA QUERIES FOR MESSAGE SECTION */
+
+/* Featured Products  */
+
+.featured-products-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  padding: 1rem;
+  grid-gap: 10px;
+}
+.featured-products-section .box-1 {
+  background: url("../img/grayscale-photography-of-person-playing-turntable-1238941.jpg");
+}
+.featured-products-section .box-2 {
+  background: url("../img/black-and-gray-dynamic-microphone-on-reflective-surface-3531975.jpg");
+}
+.featured-products-section .box-3 {
+  background: url("../img/photo-of-man-recording-935959.jpg");
+}
+.featured-products-section .box-4 {
+  background: url("../img/turned-on-audio-mixing-console-1436141.jpg");
+}
+.featured-products-section .box {
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  height: 200px;
+}
