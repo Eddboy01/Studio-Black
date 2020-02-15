@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+/*COLORS
+
+
+
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", cursive;
+  line-height: 1.7;
+}
+img {
+  max-width: 25px;
+}
+.btn {
+  padding: 1rem;
+  border: none;
+  border-radius: 15px;
+}
+.header {
+  color: #fff;
+  height: 100vh;
+  background: url(/img/aluminum-audio-battery-broadcast-270288.jpg);
+
+  position: relative;
+}
+.navigation {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #fff;
+  color: #333;
+  height: 10%;
+}
+.nav-1 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.nav-1 li,
+.nav-2 li {
+  float: left;
+  list-style: none;
+  padding: 10px 30px;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+.logo-box {
+  display: flex;
+  justify-content: center;
+  padding-top: 6px;
+}
+.img-container {
+  background-color: #fff;
+  position: relative;
+  padding: 0.8rem;
+  border-radius: 100%;
+}
+.logo-box .ig-container img {
+  width: 100%;
+  height: 100%;
+}
+.logo-box h2 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.nav-2 {
+  display: flex;
+  justify-content: center;
+}
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 2rem;
+  height: 90%;
+}
+.header-content p {
+  font-size: 3rem;
+  max-width: 500px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+}
+.header-content .btn-head {
+  width: 200px;
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+/* Mission Section */
+
+.message-section {
+  display: flex;
+  padding: 7rem;
+  flex-direction: column;
+
+  text-align: center;
+  max-height: 700px;
+}
+.message-section img {
+  max-width: 100px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.message-section p {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
