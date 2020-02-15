@@ -151,14 +151,25 @@ img {
   max-width: 700px;
 }
 /* MEDIA QUERIES FOR MESSAGE SECTION */
-
+@media (max-width: 1000px) {
+  .message-section p {
+    font-size: 1rem;
+  }
+}
 /* Featured Products  */
 
 .featured-products-section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  padding: 1rem;
+  padding: 3rem;
   grid-gap: 10px;
+  background-color: #faf6f6;
+}
+.featured-products-section .btn-dark {
+  background-color: transparent;
+  border: 2px solid #333;
+  margin-top: 10px;
+  font-size: 0.8rem;
 }
 .featured-products-section .box-1 {
   background: url("../img/grayscale-photography-of-person-playing-turntable-1238941.jpg");
