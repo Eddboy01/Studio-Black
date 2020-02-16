@@ -86,7 +86,7 @@ img {
 }
 @media (max-width: 1000px) {
   .logo-box {
-    justify-content: space-around;
+    justify-content: flex-start;
   }
 }
 .img-container {
