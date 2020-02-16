@@ -167,7 +167,7 @@ img {
 .featured-products-section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  padding: 3rem;
+  padding: 6rem 3rem;
   grid-gap: 10px;
   background-color: #faf6f6;
 }
@@ -194,4 +194,63 @@ img {
   background-position: center;
   overflow: hidden;
   height: 200px;
+}
+.black-section {
+  padding: 8rem 6rem;
+  color: #fff;
+  background-color: rgb(8, 8, 8);
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+}
+@media (max-width: 800px) {
+  .black-section {
+    padding: 8rem 1rem;
+  }
+}
+.story-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* min-height: 400px; */
+  padding: 1.3rem;
+}
+@media (max-width: 500px) {
+  .story-section {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.story-section .story-section-1 {
+  background: url("../img/audio-black-and-white-close-up-condenser-mic-347700.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+}
+.story-section .story-section-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 400px;
+}
+.story-section .story-section-2 h3 {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+.story-section .story-section-2 .btn-story {
+  background-color: transparent;
+  border: 2px solid #333;
+  border-radius: 5px;
+  padding: 1rem 1.5rem;
+}
+.story-section .story-section-3 {
+  background: url("../img/man-on-sidewalk-playing-musical-instrument-3703732.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+}
+footer {
+  text-align: center;
+  padding: 3rem 6rem;
+  color: #fff;
+  background-color: #000;
 }
