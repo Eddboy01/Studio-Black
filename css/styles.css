@@ -80,7 +80,7 @@ img {
 }
 @media (max-width: 1000px) {
   .logo-box {
-    justify-content: center;
+    justify-content: space-around;
   }
 }
 .img-container {
